@@ -170,6 +170,15 @@ section {
         text-align: justify; 
     }
 
+    ul {
+        list-style: disc;
+        margin-left: 1em;
+    }
+    ol {
+        list-style: decimal;
+        margin-left: 1em;
+    }
+
     // headers
 
     > h2 {

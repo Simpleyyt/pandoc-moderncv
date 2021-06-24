@@ -32,8 +32,12 @@
       <img id="qrcode" src="$qrcode$" />
       $endif$
       <h1 class="fullname">
+        $if(fullname)$
+        $fullname$
+        $else$
         <span itemprop="givenName">$firstname$</span>
         <span itemprop="familyName">$lastname$</span>
+        $endif$
       </h1>
       <h2 class="title">$title$</h2>
     </div>
